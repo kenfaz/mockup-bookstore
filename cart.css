@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', "Poppins", sans-serif;
+}
+
+body {
+    background-color: #14110d;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 250px; */
+}
+
+.cart-container {
+    max-width: 900px;
+    /* margin: auto; */
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    margin-top: 200px;
+    width: 80%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item img {
+    width: 100px;
+    border-radius: 8px;
+}
+
+.details h2 {
+    font-size: 18px;
+}
+
+.quantity {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.qty-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #333;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.qty {
+    font-size: 18px;
+}
+
+.item-total {
+    margin-left: auto;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cart-summary {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.checkout-btn {
+    margin-top: 10px;
+    padding: 12px 20px;
+    border: none;
+    background: #ff4747;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Navigation */
+.navigation-container {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 250px; */
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  /* justify-content: center; */
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  background-color: #ffffff;
+}
+
+.nav-bar a {
+  font-family: "JetBrains Mono", "Poppins", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #e4541e;
+  font-weight: bold;
+}
+
+.navigation-links {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.user-links {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 80px;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.user-div {
+  display: flex;
+  /* gap: 10px; */
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-links i {
+  color: #e4541e;
+}
+
+.user-links p {
+  font-family: "JetBrains Mono", "Poppins", Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  font-weight: bold;
+}

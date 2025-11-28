@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono', 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.main-div {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url("src/images/login_background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-container {
+    display: flex;
+    width: 70%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.403);
+}
+
+.left-div {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.right-div {
+    height: 90vh;
+    flex: 1;
+}
+
+.right-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/* LOGIN FORM */
+.login-box {
+    width: 80%;
+}
+
+.login-box h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    color: #e4541e;
+    text-align: left;
+}
+
+.login-box h3 {
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.login-box p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 25px;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+.login-box input:active {
+    border: 2px solid green;
+}
+
+.sign-in {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #e4541e;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.sign-in:hover {
+    background-color: white;
+    color: #e4541e;
+    border: 2px solid #e4541e;
+}
+
+
+.sign-up {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #e4541e;
+    border: 2px solid #e4541e;
+    margin-bottom: 20px;
+}
+
+.sign-up:hover {
+    background-color: #e4541e;
+    color: white;
+}
+
+.login-link {
+    text-decoration: underline;
+    color: #e4541e;
+}

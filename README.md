@@ -1,2 +1,2 @@
 # mockup-bookstore
-A mock design for a bookstore. Employing front-end and back-end.
+A mock design for a CRUD bookstore. Using HTML, CSS, JS, and PHP with XAMPP.
